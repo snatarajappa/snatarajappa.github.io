@@ -1,0 +1,90 @@
+body {
+  background-color: #dddddd;
+  padding: 20px;
+  font-family: comic sans ms;
+  color: #333333;
+}
+
+div.module {
+  background: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 9px;
+  -moz-border-radius: 9px;
+  -o-box-shadow: 0 5px 5px #333333;
+  -webkit-box-shadow: 0 5px 5px #333333;
+  -moz-box-shadow: 0 5px 5px #333333;
+  box-shadow: 0 5px 5px #333333;
+}
+
+/* #### Tablets / Desktops Portrait or Landscape #### */
+@media screen and (min-device-width: 540px) {
+  div.module {
+    width: 480px;
+  }
+}
+
+/* #### Tablets / Desktops Portrait or Landscape #### */
+@media screen and (min-device-width: 768px) {
+  div.module {
+    width: 540px;
+  }
+}
+
+/* #### Tablets / Desktops Portrait or Landscape #### */
+@media screen and (min-device-width: 1024px) {
+  div.module {
+    width: 768px;
+  }
+}
+
+img.photo {
+  height: 180px;
+  width: 150px;
+}
+div.navbar-container {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+div.navbar-container .navbar-inverse {
+  background: white;
+  border-color: #337ab7;
+}
+
+div.navbar-container .navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #337ab7;
+  box-sizing: inherit;
+}
+
+div.navbar-container .navbar-inverse .navbar-brand {
+  color: #337ab7;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+div.navbar-container .navbar-inverse .navbar-nav > li > a {
+  color: #337ab7;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+div.navbar-container .navbar-inverse .navbar-toggle:focus,
+.navbar-inverse .navbar-toggle:hover {
+  background-color: whitesmoke;
+  border-color: #337ab7;
+}
+
+div.navbar-container .navbar-inverse .navbar-toggle:focus,
+.navbar-inverse .navbar-toggle {
+  border-color: #337ab7;
+}
+
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+  border-color: #337ab7;
+}
