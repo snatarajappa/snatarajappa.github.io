@@ -42,10 +42,16 @@ div.module {
   }
 }
 
-img.photo {
+/* img.photo {
   height: 180px;
   width: 150px;
+} */
+
+img {
+  width: 100%;
+  height: auto;
 }
+
 div.navbar-container {
   padding-top: 15px;
   padding-bottom: 15px;
