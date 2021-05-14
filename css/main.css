@@ -70,13 +70,13 @@ div.navbar-container .navbar-inverse .navbar-toggle .icon-bar {
 div.navbar-container .navbar-inverse .navbar-brand {
   color: #337ab7;
   font-weight: bold;
-  font-size: 17px;
+  font-size: 15px;
 }
 
 div.navbar-container .navbar-inverse .navbar-nav > li > a {
   color: #337ab7;
   font-weight: bold;
-  font-size: 17px;
+  font-size: 15px;
 }
 
 div.navbar-container .navbar-inverse .navbar-toggle:focus,
