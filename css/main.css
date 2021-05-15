@@ -79,13 +79,23 @@ div.navbar-container .navbar-inverse .navbar-nav > li > a {
   font-size: 14px;
 }
 
-.heading {
+.heading1 {
   color: #337ab7;
-  font-size: 1.7em;
+  font-size: calc(0.75em + 1vw);
+  font-weight: bold;
+}
+
+.heading2 {
+  font-size: calc(0.6em + 1vw);
+  font-weight: bold;
+}
+
+.heading3 {
+  font-size: calc(0.5em + 1vw);
 }
 
 .paragraph {
-  font-size: calc(0.75em + 1vw);
+  font-size: calc(0.4em + 1vw);
 }
 
 div.navbar-container .navbar-inverse .navbar-toggle:focus,
