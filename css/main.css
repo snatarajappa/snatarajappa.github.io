@@ -79,8 +79,9 @@ div.navbar-container .navbar-inverse .navbar-nav > li > a {
   font-size: 14px;
 }
 
-h2.heading {
+.heading {
   color: #337ab7;
+  font-size: 20px;
 }
 
 div.navbar-container .navbar-inverse .navbar-toggle:focus,
