@@ -109,8 +109,6 @@ div.navbar-container .navbar-inverse .navbar-nav > li > a {
 
 .paragraph {
   font-size: calc(0.4em + 1vw);
-  margin-top: 20px;
-  margin-bottom: 10px;
   font-family: inherit;
   font-weight: 200;
 }
