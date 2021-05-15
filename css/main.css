@@ -85,7 +85,7 @@ div.navbar-container .navbar-inverse .navbar-nav > li > a {
   margin-top: 20px;
   margin-bottom: 10px;
   font-family: inherit;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1.1;
 }
 
@@ -94,7 +94,7 @@ div.navbar-container .navbar-inverse .navbar-nav > li > a {
   margin-top: 20px;
   margin-bottom: 10px;
   font-family: inherit;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.1;
 }
 
@@ -103,7 +103,7 @@ div.navbar-container .navbar-inverse .navbar-nav > li > a {
   margin-top: 20px;
   margin-bottom: 10px;
   font-family: inherit;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.1;
 }
 
