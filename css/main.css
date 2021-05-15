@@ -84,8 +84,8 @@ div.navbar-container .navbar-inverse .navbar-nav > li > a {
   font-size: 1.7em;
 }
 
-.paragraph{
-  font-size: 1.5em;
+.paragraph {
+  font-size: calc(0.75em + 1vw);
 }
 
 div.navbar-container .navbar-inverse .navbar-toggle:focus,
