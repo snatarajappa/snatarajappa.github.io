@@ -110,6 +110,7 @@ div.navbar-container .navbar-inverse .navbar-nav > li > a {
   font-weight: 500;
   line-height: 1.1;
   font-style: italic;
+  text-decoration: underline;
 }
 
 .heading3 {
