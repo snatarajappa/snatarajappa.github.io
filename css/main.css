@@ -158,3 +158,9 @@ div.navbar-container .navbar-inverse .navbar-toggle:focus,
 .navbar-inverse .navbar-form {
   border-color: #337ab7;
 }
+
+
+iframe{
+  width: 100% !important;
+  height: auto !important;
+}
