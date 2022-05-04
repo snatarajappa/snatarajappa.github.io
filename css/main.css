@@ -162,5 +162,5 @@ div.navbar-container .navbar-inverse .navbar-toggle:focus,
 
 iframe{
   width: 100% !important;
-  height: auto !important;
+  /* height: auto !important; */
 }
