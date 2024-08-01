@@ -208,67 +208,152 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "A Search Engine For Travel Planning",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Travel Made Easy is a search engine for travel planning for local places near Salt Lake City where users can query about the places.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Elastic Search",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "ASP .NET",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/snatarajappa/travel-made-easy",
   },
   {
-    name: "Job IT",
+    name: "Physically Based Rendering",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "The project demonstrates realistic image synthesis to simulate light interactions with materials and environment.",
     tags: [
       {
-        name: "react",
+        name: "C++",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "OpenGL",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "freeglut",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/snatarajappa/image-based-lighting",
   },
   {
-    name: "Trip Guide",
+    name: "ToDo App",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "My ToDo App is a React and TypeScript-based application with Redux and Material UI for the frontend, and Domo Collections for the backend, enabling users to create, update, complete, delete, and search tasks efficiently.",
     tags: [
       {
-        name: "nextjs",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "TypeScript",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "CSS",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/snatarajappa/todo-app",
+  },
+  {
+    name: "Poster Designer",
+    description:
+      "Poster Designer allows users to create and customize posters by selecting tools from a sidebar, editing text and images, and managing elements through resize, move, and delete functionalities.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Canvas",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Emotion",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/snatarajappa/poster-designer",
+  },
+  {
+    name: "Bird Migration Data Visualization",
+    description:
+      "The project uses interactive visualizations to display bird migration data sourced from eBird and other datasets.",
+    tags: [
+      {
+        name: "JavaScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "D3",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Esri",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link:
+      "https://github.com/snatarajappa/dataviscourse-bird_migration",
+  },
+  {
+    name: "GraphQL Server",
+    description:
+      "GraphQL Server is a backend service that provides a flexible and efficient API for querying and manipulating data through GraphQL.",
+    tags: [
+      {
+        name: "TypeScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Prisma",
+        color: "green-text-gradient",
+      },
+      {
+        name: "GraphQL",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/snatarajappa/graphql-server",
+  },
+  {
+    name: "Inventory Service",
+    description:
+      "A Java and Spring Boot microservice for managing inventory within an Order Management System, integrated with Spring Cloud, Keycloak, Zipkin, ELK, and Grafana for enhanced monitoring and security.",
+    tags: [
+      {
+        name: "Java",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Spring Boot",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Microservice",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "",
   },
 ];
 
