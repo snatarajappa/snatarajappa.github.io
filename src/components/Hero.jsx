@@ -2,8 +2,14 @@ import React from "react";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const Hero = () => {
+  const handleClick = (e) => {
+    console.log("Link clicked:", e.target.href);
+  };
+
   return (
     <section className="relative w-full h-screen mx-auto">
       <div
@@ -20,6 +26,26 @@ const Hero = () => {
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             Full-stack developer
           </p>
+        </div>
+        <div className="flex justify-center items-center mt-4 space-x-4 z-30">
+          <a
+            href="https://www.linkedin.com/in/snatarajappa/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#0072b1]"
+            onClick={handleClick}
+          >
+            <FontAwesomeIcon icon={faLinkedin} size="2x" />
+          </a>
+          <a
+            href="https://github.com/snatarajappa"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white"
+            onClick={handleClick}
+          >
+            <FontAwesomeIcon icon={faGithub} size="2x" />
+          </a>
         </div>
       </div>
       <ComputersCanvas />
